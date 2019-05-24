@@ -22,7 +22,8 @@ public class InfixToPostfixTest {
     @Test
     public void enhance() {
 
-        assertEquals("_25*_34-(_23+_1)", infixToPostfix.enhance("25*34-(23+1)"));
+        assertEquals("_25*_34-(_23+_1)", InfixToPostfix.enhance("25*34-(23+1)"));
+        assertEquals("_25*_34-(_23+_1)", InfixToPostfix.enhance("_25*34-(23+1)"));
 
     }
 
