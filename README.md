@@ -1,5 +1,6 @@
 # A basic calculator
-It takes an infix string, converts it into postfix under the hood and does the mathematical calculation to give you the desired result.
+1. It takes an infix string, converts it into postfix using the Shunting Yard algorithm by Djikstra
+2. Does the mathematical calculation on the postfix expression to give you the desired result.
 
 expected character inputs: {, }, [,], (,), 0-9, +, -, *, /, ^
 
