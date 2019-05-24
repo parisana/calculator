@@ -11,10 +11,8 @@ import static com.calculator.InfixToPostfix.isOperator;
 public class Calculator {
 
     public static void main(String[] args) {
-        try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-             BufferedWriter bufferedWriter = new BufferedWriter(new PrintWriter(System.out))){
-            bufferedWriter.write("Enter a string that you want to calculate the value of: \n");
-            bufferedWriter.flush();
+        try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in))){
+            System.out.println("Enter a string that you want to calculate the value of: \n");
             String infixExp = bufferedReader.readLine();
             while (!infixExp.equals("q")) {
                 final InfixToPostfix infixToPostfix = new InfixToPostfix();
