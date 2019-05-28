@@ -14,6 +14,16 @@
         </option>
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/binary-tree" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/binary-tree" />
+          </set>
+        </option>
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
     </option>
   </component>
 </project>

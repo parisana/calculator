@@ -22,7 +22,7 @@ public class InfixToPostfix {
             throw new UnsupportedOperationException("The characters cannot be null!");
         }
 
-        return priorityLevelOfOperator(first)-priorityLevelOfOperator(second)>0;
+        return priorityLevelOfOperator(first)-priorityLevelOfOperator(second)>=0;
     }
 
     private static byte priorityLevelOfOperator(Character c){
